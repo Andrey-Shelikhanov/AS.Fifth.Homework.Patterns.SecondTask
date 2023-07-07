@@ -1,4 +1,4 @@
-package ru.netology.API.TestingMode.Test;
+package ru.netology.apitestingmode.test;
 
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.BeforeEach;
@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static ru.netology.API.TestingMode.Data.DataGenerator.Registration.getRegisteredUser;
-import static ru.netology.API.TestingMode.Data.DataGenerator.Registration.getUser;
-import static ru.netology.API.TestingMode.Data.DataGenerator.getRandomLogin;
-import static ru.netology.API.TestingMode.Data.DataGenerator.getRandomPassword;
+import static ru.netology.apitestingmode.data.DataGenerator.Registration.getRegisteredUser;
+import static ru.netology.apitestingmode.data.DataGenerator.Registration.getUser;
+import static ru.netology.apitestingmode.data.DataGenerator.getRandomLogin;
+import static ru.netology.apitestingmode.data.DataGenerator.getRandomPassword;
 
 class AuthTest {
     @BeforeEach
